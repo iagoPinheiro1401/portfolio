@@ -1,5 +1,6 @@
 import H1 from "../src/components/h1/H1"
-import Subtitle from "../src/components/Subtitle"
+import Subtitle from "../src/components/subtitle/Subtitle"
+import Profile from "../src/components/profile/profile"
 
 import styled from "styled-components"
 
@@ -9,7 +10,7 @@ const Container = styled.div`
     justify-content: center;
     align-items: center;
     margin: 70px;
-    gap: 15px;
+    gap: 30px;
 `
 
 export default function HomePage() {
@@ -17,6 +18,7 @@ export default function HomePage() {
     <Container>
         <H1>Desenvolvedor Frontend, Backend e Fullstack</H1>
         <Subtitle>Sou capacitado para desenvolver tanto a parte do cliente tanto a parte do servidor.</Subtitle>
+        <Profile />
     </Container>
    )
 }
