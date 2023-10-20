@@ -1,13 +1,14 @@
 import styled from "styled-components"
 
 const Img = styled.img`
-    border-radius: 100px;
-    padding-top: 25px;
+    border-radius: 50%;
+    width: 200px;
+    height: 220px;
 `
 
 function Profile() {
     return(
-        <Img src="perfil.jpeg" width="200px"/>  
+        <Img src="perfil.jpeg"/>  
     )
 }
 
