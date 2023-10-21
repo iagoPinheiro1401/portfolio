@@ -4,6 +4,7 @@ import H1 from "../src/components/typography/h1/H1"
 import H2 from "../src/components/typography/h2/H2"
 import Profile from "../src/components/profile/profile"
 import Presentation from "../src/components/presentation/Presentation"
+import Skills from "../src/components/skills/SkillsCard"
 
 const Container = styled.div`
     display: flex;
@@ -21,6 +22,7 @@ export default function HomePage() {
         <H2>Capaz de criar sistemas inovadores, do front-end ao back-end, para impulsionar sua visão de negócios.</H2>
         <Profile />
         <Presentation />
+        <Skills />
     </Container>
    )
 }

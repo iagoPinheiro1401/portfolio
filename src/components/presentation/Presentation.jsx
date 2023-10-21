@@ -8,7 +8,7 @@ const NewH1 = styled(H1)`
 `
 
 const PresentationContainer  = styled.div`
-    min-height: 100px;
+    min-height: 300px;
     width: 100%;
     background-color: #6E07F3;
     display: flex;
