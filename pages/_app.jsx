@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
     }
     body {
-        font-family: 'Brawler', serif;
+        font-family: 'Roboto', sans-serif;
     }
 `
 

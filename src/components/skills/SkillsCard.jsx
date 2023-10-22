@@ -3,6 +3,11 @@ import styled from "styled-components"
 import H1 from "../typography/h1/H1"
 import H2 from "../typography/h2/H2"
 
+const NewH1 = styled(H1)`
+    font-size: 25px;
+    font-weight: bold;
+`
+
 const NewH2 = styled(H2)`
     color: #6E07F3;
 `
@@ -45,6 +50,7 @@ function Skills() {
         <ContainerCards >
             <Card>
                 <Img src="frontend.png" width="50px"/>
+                <NewH1>Frontend</NewH1>
                 <H2>Gosto de codificar coisas do zero e gosto de dar vida às ideias no navegador.</H2>
                 <NewH2>Skills:</NewH2>
                 <H2>ReactJs</H2>
@@ -57,6 +63,7 @@ function Skills() {
             <Line/>
             <Card>
                 <Img src="backend.jpg"/>
+                <NewH1>Backend</NewH1>
                 <H2>Meu verdadeiro prazer está em construir as engrenagens fundamentais dos sistemas.</H2>
                 <NewH2>Skills:</NewH2>
                 <H2>NodeJs</H2>

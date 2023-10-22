@@ -11,7 +11,7 @@ const Container = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 70px;
+    padding-top: 150px;
     gap: 30px;
 `
 
@@ -19,7 +19,7 @@ export default function HomePage() {
    return(
     <Container>
         <H1>Desenvolvedor Frontend, Backend e Fullstack</H1>
-        <H2>Capaz de criar sistemas inovadores, do front-end ao back-end, para impulsionar sua visão de negócios.</H2>
+        <H2>Capaz de atuar no frontend e backend com código simples e limpo</H2>
         <Profile />
         <Presentation />
         <Skills />
