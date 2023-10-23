@@ -5,6 +5,7 @@ import H2 from "../src/components/typography/h2/H2"
 import Profile from "../src/components/profile/profile"
 import Presentation from "../src/components/presentation/Presentation"
 import Skills from "../src/components/skills/SkillsCard"
+import Contacts from "../src/components/contacts/Contacts"
 
 const Container = styled.div`
     display: flex;
@@ -21,6 +22,7 @@ export default function HomePage() {
         <H1>Desenvolvedor Frontend, Backend e Fullstack</H1>
         <H2>Capaz de atuar no frontend e backend com código simples e limpo</H2>
         <Profile />
+        <Contacts />
         <Presentation />
         <Skills />
     </Container>
