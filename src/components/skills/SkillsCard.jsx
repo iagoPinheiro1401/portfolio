@@ -20,17 +20,30 @@ const ContainerCards = styled.div`
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     position: relative;
     top: -150px;
+
+    @media (max-width: 1070px) {
+        flex-direction: column;
+        top: -100px;
+    }
+
+    @media (max-width: 500px) {
+        width: 350px;
+    }
 `
 
 const Card = styled.div`
     max-width: 400px;
     height: 100%;
-    margin: 50px 50px 150px 50px;
+    margin: 50px 0 150px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 20px;
+
+    @media (max-width: 500px) {
+        gap: 15px;
+    }
 `
 
 const Img = styled.img`
@@ -43,6 +56,13 @@ const Line = styled.div`
     background-color: #C9C9C9;
     min-height: 100%;
     margin: 0 20px;
+
+    @media (max-width: 1070px) {
+        width: 100%;
+        height: 1px;
+        position: relative;
+        left: -20px;
+    }
 `
 
 function Skills() {

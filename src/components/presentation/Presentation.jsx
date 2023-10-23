@@ -20,7 +20,7 @@ const TextContainer = styled.div`
 `
 
 const PresentationContainer  = styled.div`
-    min-height: 450px;
+    height: 450px;
     width: 100%;
     background-color: #6E07F3;
     display: flex;

@@ -7,6 +7,10 @@ const Container = styled.div`
     display: flex;
     gap: 100px;
     padding: 50px 0;
+
+    @media (max-width: 1070px) {
+        flex-direction: column;
+    }
 `
 
 const ProjectsCard = styled.div`
@@ -17,6 +21,10 @@ const ProjectsCard = styled.div`
     justify-content: center;
     align-items: center;
     gap: 50px;
+
+    @media (max-width: 450px) {
+        width: 300px;
+    }
 `
 
 const NewH2 = styled(H2)`
@@ -30,6 +38,10 @@ const Img = styled.img`
 
     &:hover {
         transform: scale(1.4);
+    }
+
+    @media (max-width: 500px) {
+        max-width: 350px;
     }
 `
 
