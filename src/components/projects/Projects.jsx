@@ -56,7 +56,7 @@ const ContainerImage = styled.div`
 function Projects() {
     return(
         <>
-            <H1>Conheça um pouco dos meus principais projetos:</H1>
+            <H1>Com esses conhecimentos eu criei esses projetos:</H1>
             <Container>
                 <Card>
                     <ProjectsCard>

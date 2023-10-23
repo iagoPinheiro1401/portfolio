@@ -5,21 +5,24 @@ import H2 from "../src/components/typography/h2/H2"
 import Profile from "../src/components/profile/profile"
 import Presentation from "../src/components/presentation/Presentation"
 import Skills from "../src/components/skills/SkillsCard"
-import Contacts from "../src/components/contacts/Contacts"
 import Projects from "../src/components/projects/Projects"
+import Baseboard from "../src/components/baseboard/Baseboard"
 
 const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 50px;
     gap: 30px;
 `
-const Line = styled.div`
-    background-color: #C9C9C9;
-    min-height: 1px;
-    width: 100%;
+const LineSmall = styled.div`
+    background-color: #6E07F3;
+    min-height: 7px;
+    width: 100px;
+    border-radius: 20px;
+    position: relative;
+    top: -50px;
 `
 
 export default function HomePage() {
@@ -28,11 +31,11 @@ export default function HomePage() {
         <H1>Desenvolvedor Frontend, Backend e Fullstack</H1>
         <H2>Capaz de atuar no frontend e backend com código simples e limpo</H2>
         <Profile />
-        <Contacts />
         <Presentation />
         <Skills />
-        <Line />
+        <LineSmall />
         <Projects />
+        <Baseboard />
     </Container>
    )
 }
