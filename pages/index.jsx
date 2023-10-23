@@ -6,6 +6,7 @@ import Profile from "../src/components/profile/profile"
 import Presentation from "../src/components/presentation/Presentation"
 import Skills from "../src/components/skills/SkillsCard"
 import Contacts from "../src/components/contacts/Contacts"
+import Projects from "../src/components/projects/Projects"
 
 const Container = styled.div`
     display: flex;
@@ -14,6 +15,11 @@ const Container = styled.div`
     align-items: center;
     padding-top: 150px;
     gap: 30px;
+`
+const Line = styled.div`
+    background-color: #C9C9C9;
+    min-height: 1px;
+    width: 100%;
 `
 
 export default function HomePage() {
@@ -25,6 +31,8 @@ export default function HomePage() {
         <Contacts />
         <Presentation />
         <Skills />
+        <Line />
+        <Projects />
     </Container>
    )
 }
