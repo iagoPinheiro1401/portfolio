@@ -22,7 +22,7 @@ const Img = styled.img`
     bottom: -30px;
 
     @media (max-width: 850px) {
-        width: 400px
+        width: 370px
     }
 `
 
@@ -48,6 +48,10 @@ const NewH2 = styled(H2)`
 const ContainerLogo = styled.div`
     display: flex;
     align-items: center;
+
+    @media (max-width: 730px) {
+        justify-content: center;
+    }
 `
 
 export default function HomePage() {

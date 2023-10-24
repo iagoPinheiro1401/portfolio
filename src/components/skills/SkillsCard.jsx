@@ -29,12 +29,16 @@ const ContainerCards = styled.div`
     @media (max-width: 500px) {
         width: 350px;
     }
+
+    @media (max-width: 500px) {
+        width: 350px;
+    }
 `
 
 const Card = styled.div`
     max-width: 400px;
     height: 100%;
-    margin: 50px 0 150px 50px;
+    margin: 50px 50px 150px 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,6 +47,7 @@ const Card = styled.div`
 
     @media (max-width: 500px) {
         gap: 15px;
+        margin: 50px 50px 100px 50px;
     }
 `
 

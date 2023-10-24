@@ -14,6 +14,11 @@ const Container = styled.div`
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    justify-content: center;
+
+    @media (max-width: 550px) {
+        gap: 20px;
+    }
 `
 
 const ContainerImg = styled.div`
@@ -30,6 +35,11 @@ const ImgContacts = styled.img`
     width: 70px;
     height: 70px;
     border-radius: 15px;
+
+    @media (max-width: 550px) {
+        width: 50px;
+        height: 50px;
+    }
 `
 
 const Line = styled.div`

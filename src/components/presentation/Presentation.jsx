@@ -15,8 +15,15 @@ const NewH2 = styled(H2)`
 
 const TextContainer = styled.div`
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 5px;
+
+    @media (max-width: 870px) {
+        gap: 0px;
+        padding: 0 20px;
+    }
 `
 
 const PresentationContainer  = styled.div`
@@ -38,8 +45,8 @@ function Presentation() {
                 <TextContainer>
                      <NewH2>Olá, sou Iago Pinheiro, estudante de Ciências da Computação, tenho 18 anos, estou busca do meu</NewH2> 
                      <NewH2>primeiro emprego como desenvolvedor fullstack. Com habilidades em front-end e back-end,</NewH2>
-                     <NewH2>estou pronto para contribuir em projetos inovadores. Explore meu portfólio e entre em</NewH2>
-                     <NewH2>contato para saber mais.</NewH2>
+                     <NewH2>estou pronto para contribuir em projetos inovadores. Explore meu portfólio e entre em contato para saber mais.</NewH2>
+                     <NewH2></NewH2>
                 </TextContainer>
             </PresentationContainer>
     )
