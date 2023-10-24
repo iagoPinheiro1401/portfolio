@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 import H1 from "../src/components/typography/h1/H1"
 import H2 from "../src/components/typography/h2/H2"
-import Profile from "../src/components/profile/profile"
+import Profile from "../src/components/profile/Profile"
 import Presentation from "../src/components/presentation/Presentation"
 import Skills from "../src/components/skills/SkillsCard"
 import Projects from "../src/components/projects/Projects"
