@@ -61,8 +61,9 @@ const Card = styled.div`
 
 const ContainerImage = styled.div`
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 `
 
 function Projects() {
@@ -82,6 +83,7 @@ function Projects() {
                             <ImgSkills src="react.png"/>
                             <ImgSkills src="node.png"/>
                             <ImgSkills src="mongo.png"/>
+                            <ImgSkills src="next.png"/>
                         </ContainerImage>
                     </ProjectsCard>
                 </Card>
@@ -95,6 +97,23 @@ function Projects() {
                             <NewH2>Principais ferramentas:</NewH2>
                             <ContainerImage>
                                 <ImgSkills src="react.png"/>
+                                <ImgSkills src="next.png"/>
+                            </ContainerImage>
+                        </ProjectsCard>
+                </Card>
+                <Card>
+                    <ProjectsCard>
+                            <H1>Clima Dev</H1>
+                            <a href="https://clima-dev-six.vercel.app/">
+                                <Img src="climadev.png"/>
+                            </a>
+                            <H2>Projeto que qpresenta temperatura atual e futuira, informações buscadas em uma API.</H2>
+                            <NewH2>Principais ferramentas:</NewH2>
+                            <ContainerImage>
+                                <ImgSkills src="react.png"/>
+                                <ImgSkills src="api.png"/>
+                                <ImgSkills src="next.png"/>
+                                <ImgSkills src="styled.jpg"/>
                             </ContainerImage>
                         </ProjectsCard>
                 </Card>
