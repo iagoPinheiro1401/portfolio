@@ -7,6 +7,7 @@ import Presentation from "../src/components/presentation/Presentation"
 import Skills from "../src/components/skills/SkillsCard"
 import Projects from "../src/components/projects/Projects"
 import Baseboard from "../src/components/baseboard/Baseboard"
+import Navbar from "../src/components/navbar/Navbar"
 
 const Container = styled.div`
     display: flex;
@@ -26,12 +27,6 @@ const Img = styled.img`
     }
 `
 
-
-const ImgIP = styled.img`
-    max-width: 100px;
-    max-height: 100%;
-`
-
 const LineSmall = styled.div`
     background-color: #6E07F3;
     min-height: 7px;
@@ -41,26 +36,10 @@ const LineSmall = styled.div`
     top: -50px;
 `
 
-const NewH2 = styled(H2)`
-    color: #6E07F3;
-`
-
-const ContainerLogo = styled.div`
-    display: flex;
-    align-items: center;
-
-    @media (max-width: 730px) {
-        justify-content: center;
-    }
-`
-
 export default function HomePage() {
    return(
     <>
-        <ContainerLogo>
-            <ImgIP src="ipPurple.png"/>
-            <NewH2>Iago Pinheiro</NewH2>
-        </ContainerLogo>
+        <Navbar/>
         <Container>
             <H1>Desenvolvedor Frontend, Backend e Fullstack</H1>
             <H2>Capaz de atuar no frontend e backend com código simples e limpo</H2>
