@@ -107,7 +107,7 @@ function Projects() {
                             <a href="https://clima-dev-six.vercel.app/">
                                 <Img src="climadev.png"/>
                             </a>
-                            <H2>Projeto que qpresenta temperatura atual e futuira, informações buscadas em uma API.</H2>
+                            <H2>Projeto que presenta temperatura atual e futura, informações buscadas na api OpenWeatherMap.</H2>
                             <NewH2>Principais ferramentas:</NewH2>
                             <ContainerImage>
                                 <ImgSkills src="react.png"/>
